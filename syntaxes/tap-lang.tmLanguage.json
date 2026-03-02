@@ -1,0 +1,54 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "tap-lang",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.tap-lang",
+				"match": "\\b(if|while|for|return)\\b"
+			},
+			{
+				"name": "keyword.define.tap-lang",
+				"match": "\\b(let|fn)\\b"
+			},
+			{
+				"name": "keyword.type.tap-lang",
+				"match": "\\b(int|string|float)\\b"
+			}
+		]},
+		"strings": {
+			"name": "string.quoted.double.tap-lang",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.tap-lang",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name": "comment.tap-lang",
+			"begin": "//",
+			"end": "\n",
+			"patterns": [
+				{
+					"name": "comment.tap-lang",
+					"match": "//."
+				}
+			]
+		}
+	},
+	"scopeName": "source.tap"
+}
