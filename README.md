@@ -1,6 +1,6 @@
-# typephp README
+# tap-lang-vscode-plugin
 
-tap-lang language support
+tap-lang-vscode-plugin
 
 ## Features
 

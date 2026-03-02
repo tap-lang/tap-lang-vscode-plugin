@@ -1,6 +1,6 @@
-# typephp README
+# tap-lang README
 
-This is the README for your extension "typephp". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "tap-lang". After writing up a brief description, we recommend including the following sections.
 
 ## Features
 
