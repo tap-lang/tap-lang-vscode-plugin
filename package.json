@@ -1,8 +1,8 @@
 {
     "name": "tap-lang-vscode-plugin",
-    "displayName": "tap-lang",
+    "displayName": "Tap Lang",
     "publisher": "heropoo",
-    "description": "Tap Lang Support",
+    "description": "Tap Lang",
     "version": "0.0.1",
     "repository": {
         "type": "git",
