@@ -7,9 +7,8 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/tap-lang/tap-lang-vscode-plugin"
-      },
+    },
     "homepage": "https://github.com/tap-lang/tap-lang-vscode-plugin/blob/main/README.md",
-
     "engines": {
         "vscode": "^1.46.0"
     },
@@ -17,16 +16,26 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "tap-lang",
-            "aliases": ["tap-lang", "taplang", "tap"],
-            "extensions": [".tap"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "tap-lang",
-            "scopeName": "source.tap",
-            "path": "./syntaxes/tap-lang.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "tap-lang",
+                "aliases": [
+                    "tap-lang",
+                    "taplang",
+                    "tap"
+                ],
+                "extensions": [
+                    ".tap"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "tap-lang",
+                "scopeName": "source.tap",
+                "path": "./syntaxes/tap-lang.tmLanguage.json"
+            }
+        ]
     }
 }
